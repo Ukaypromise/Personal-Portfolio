@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,300&family=Roboto&family=Roboto+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&family=Roboto&family=Roboto+Condensed:wght@300&display=swap");
 
 *,
 ::before,
@@ -59,7 +59,7 @@ a {
   background-color: #6070ff;
 }
 
-@media all and (max-width: 680px) {
+@media all and (min-width: 375px) {
   .hambuger {
     display: block;
   }
@@ -96,7 +96,7 @@ a {
 }
 
 .headline-bg {
-  background-image: url(/images/Header-bg2x.png);
+  background-image: url(/images/header-bgg.svg);
   background-size: 100% 100%;
   object-fit: cover;
   background-repeat: no-repeat;
@@ -106,11 +106,13 @@ a {
 }
 
 .headline-main {
-  font-size: 2.75rem;
-  line-height: 3rem;
   margin-bottom: 2rem;
   color: #172b4d;
   text-align: start;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
 }
 
 .headline-paragraph {
@@ -123,6 +125,15 @@ a {
 .headline-connect {
   margin: 2rem 0;
   color: #7f8cff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.headline-icons {
+  display: flex;
+  flex-direction: row;
 }
 
 .fa-xl {
