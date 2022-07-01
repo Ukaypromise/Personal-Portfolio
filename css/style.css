@@ -38,7 +38,7 @@ a {
 }
 
 .nav-branding {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #6070ff;
 }
 
@@ -98,9 +98,11 @@ a {
 .headline-bg {
   background-image: url(/images/Header-bg2x.png);
   background-size: 100% 100%;
+  object-fit: cover;
   background-repeat: no-repeat;
   border-radius: 0 0 0 50px;
   background-color: #ffff;
+
   height: 600px;
 }
 
