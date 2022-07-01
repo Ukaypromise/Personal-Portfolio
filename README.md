@@ -21,9 +21,9 @@ This is my Microverse Personal Portfolio.
 
 👤 **Promise Uka**
 
-- GitHub: [@githubhandle](https://github.com/Ukaypromise/)
-- Twitter: [@twitterhandle](https://twitter.com/PromiseUkay)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/engr-promise-uka-5a1450173/)
+- GitHub: [@Ukaypromise](https://github.com/Ukaypromise/)
+- Twitter: [@PromiseUkay](https://twitter.com/PromiseUkay)
+- LinkedIn: [@promiseuka](https://www.linkedin.com/in/promiseuka)
 
 ## 🤝 Contributing
 
