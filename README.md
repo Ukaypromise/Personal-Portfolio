@@ -10,6 +10,11 @@ This is my Microverse Personal Portfolio.
 
 ## Getting Started
 
+- Click on the clone button to copy the clone
+- Open Terminal and run git clone <copied address>
+- Clone the repo
+- From you terminal run " code ." to open in your code editor.
+
 **Setting up My Personal Portolio task**
 
 ## Authors
@@ -29,3 +34,10 @@ Contributions, issues, and feature requests are welcome!
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+
+- Thanks to the reviewers
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
