@@ -199,7 +199,7 @@ a {
 }
 
 .work-title {
-  font-size: 32px;
+  font-size: 34px;
   font-weight: 700;
   color: #344563;
   line-height: 44px;
@@ -211,6 +211,9 @@ h4 {
   margin-left: 20px;
   color: #344563;
   font-size: 16px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
 }
 
 .title-description {
@@ -246,7 +249,7 @@ h4 {
   font-size: 12px;
   padding: 5px 15px;
   margin: 0 20px;
-  border-radius: 10px;
+  border-radius: 8px;
   background-color: #ebebff;
   color: #6070ff;
 }
@@ -259,12 +262,86 @@ h4 {
   margin: 50px 0 50px 20px;
   padding: 12px;
   background-color: #fff;
-  width: 45%;
+  width: 50%;
   cursor: pointer;
-  transition: 0.5s ease-in-out;
+  /* transition: 0.5s ease-in-out; */
 }
-
+.btn-resume {
+  font-size: 20px;
+  border: solid 1px #6070ff;
+  color: #6070ff;
+  border-radius: 10px;
+  padding: 12px;
+  background-color: #fff;
+  margin-top: 15px;
+  width: 50%;
+  cursor: pointer;
+  /* transition: 0.5s ease-in-out; */
+}
 button:hover {
   background-color: #6070ff;
   color: #ffff;
+}
+
+/* <<<<ABOUT ME>>>> */
+
+.about-me {
+  background-color: #fff;
+  border-radius: 0 100px 0 0;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 100px 20px 20px 20px;
+}
+
+/* Langauges */
+
+.dev-stacks {
+  /* margin: 0 50px; */
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+  width: 100%;
+}
+
+.dev-stack {
+  display: flex;
+  font-size: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px #dfe1e6;
+  padding: 15px 0;
+}
+
+.stack-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  background-color: #f5f5f5;
+  margin: 0 0 25px 0;
+  padding: 20px 40px;
+  border-radius: 8px;
+  color: #253858;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.stack-list {
+  padding-top: 8px;
+}
+.js {
+  color: #ffe135;
+}
+
+.html {
+  color: orange;
+}
+
+.css {
+  color: blue;
 }
