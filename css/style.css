@@ -210,7 +210,6 @@ a {
 h4 {
   margin-left: 20px;
   color: #344563;
-  font-size: 16px;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
@@ -264,8 +263,9 @@ h4 {
   background-color: #fff;
   width: 50%;
   cursor: pointer;
-  /* transition: 0.5s ease-in-out; */
+  transition: 0.5s ease-in-out;
 }
+
 .btn-resume {
   font-size: 20px;
   border: solid 1px #6070ff;
@@ -276,8 +276,9 @@ h4 {
   margin-top: 15px;
   width: 50%;
   cursor: pointer;
-  /* transition: 0.5s ease-in-out; */
+  transition: 0.5s ease-in-out;
 }
+
 button:hover {
   background-color: #6070ff;
   color: #ffff;
@@ -334,6 +335,7 @@ button:hover {
 .stack-list {
   padding-top: 8px;
 }
+
 .js {
   color: #ffe135;
 }
