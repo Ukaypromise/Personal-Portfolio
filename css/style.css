@@ -98,7 +98,7 @@ a {
 }
 
 .headline-bg {
-  background-image: url(/images/header-bgg.svg);
+  background-image: url("../images/header-bgg.svg");
   background-size: 100% 100%;
   object-fit: cover;
   background-repeat: no-repeat;
@@ -129,7 +129,7 @@ a {
   color: #7f8cff;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
 }
 
