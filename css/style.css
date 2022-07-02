@@ -10,6 +10,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background: #e5e5e5;
 }
 
 li {
@@ -27,6 +28,7 @@ a {
   align-items: center;
   padding: 0 20px;
   min-height: 70px;
+  background: white;
 }
 
 .nav-menu {
@@ -96,7 +98,7 @@ a {
 }
 
 .headline-bg {
-  background-image: url(/images/header-bgg.svg);
+  background-image: url("../images/header-bgg.svg");
   background-size: 100% 100%;
   object-fit: cover;
   background-repeat: no-repeat;
@@ -127,7 +129,7 @@ a {
   color: #7f8cff;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
 }
 
@@ -139,4 +141,209 @@ a {
 .fa-xl {
   margin-right: 1rem;
   color: #505f79;
+}
+
+/* <<<< Work Section >>>> */
+
+.work-section {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin: 70px 24px;
+}
+
+.work-info1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: solid 1px #dfe1e6;
+  border-radius: 15px;
+  background-color: #fff;
+  grid-row-start: 1;
+  padding: 16px;
+}
+
+.work-info2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: solid 1px #dfe1e6;
+  border-radius: 15px;
+  background-color: #fff;
+  grid-row-start: 2;
+  padding: 16px;
+}
+
+.work-info3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: solid 1px #dfe1e6;
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 16px;
+  grid-row-start: 3;
+}
+
+.work-info4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: solid 1px #dfe1e6;
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 16px;
+  grid-row-start: 4;
+}
+
+.work-title {
+  font-size: 34px;
+  font-weight: 700;
+  color: #344563;
+  line-height: 44px;
+  margin: 20px 0 20px 0;
+  padding-left: 20px;
+}
+
+h4 {
+  margin-left: 20px;
+  color: #344563;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.title-description {
+  font-size: 20px;
+  color: #344563;
+  margin: 0 0 20px 0;
+  padding-left: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.dot::before {
+  content: "• ";
+  margin-right: 4px;
+}
+
+.tag {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.stack-group {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0 0;
+  padding: 0;
+}
+
+.stack {
+  font-size: 12px;
+  padding: 5px 15px;
+  margin: 0 20px;
+  border-radius: 8px;
+  background-color: #ebebff;
+  color: #6070ff;
+}
+
+.btn {
+  font-size: 20px;
+  border: solid 1px #6070ff;
+  color: #6070ff;
+  border-radius: 10px;
+  margin: 50px 0 50px 20px;
+  padding: 12px;
+  background-color: #fff;
+  width: 50%;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.btn-resume {
+  font-size: 20px;
+  border: solid 1px #6070ff;
+  color: #6070ff;
+  border-radius: 10px;
+  padding: 12px;
+  background-color: #fff;
+  margin-top: 15px;
+  width: 50%;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+button:hover {
+  background-color: #6070ff;
+  color: #ffff;
+}
+
+/* <<<<ABOUT ME>>>> */
+
+.about-me {
+  background-color: #fff;
+  border-radius: 0 100px 0 0;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 100px 20px 20px 20px;
+}
+
+/* Langauges */
+
+.dev-stacks {
+  /* margin: 0 50px; */
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+  width: 100%;
+}
+
+.dev-stack {
+  display: flex;
+  font-size: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px #dfe1e6;
+  padding: 15px 0;
+}
+
+.stack-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  background-color: #f5f5f5;
+  margin: 0 0 25px 0;
+  padding: 20px 40px;
+  border-radius: 8px;
+  color: #253858;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.stack-list {
+  padding-top: 8px;
+}
+
+.js {
+  color: #ffe135;
+}
+
+.html {
+  color: orange;
+}
+
+.css {
+  color: blue;
 }
