@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  position: fixed;
+  position: sticky;
   width: 100%;
 }
 
@@ -351,4 +351,35 @@ button:hover {
 
 .css {
   color: blue;
+}
+/* <<<<<Footer>>>>> */
+
+footer {
+  padding: 50px 50px;
+}
+
+/* .contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px 20px;
+}
+
+.footer-bg {
+  background-image: url("../images/contact-bg.png");
+  background-size: 100% 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  border-radius: 50px 0 0 0;
+  height: 600px;
+} */
+
+.contact-text {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
