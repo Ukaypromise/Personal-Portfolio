@@ -254,36 +254,40 @@
           with it
         </p>
       </div>
-      <form action="">
+      <form action="" class="form-contact">
         <div class="form-group">
-          <label for="name">Name</label>
+          <label for="name"></label>
           <input
             type="text"
             class="form-control"
             id="name"
             placeholder="Name"
+            required
           />
         </div>
+
         <div class="form-group">
-          <label for="email">Email</label>
+          <label for="email"></label>
           <input
             type="email"
             class="form-control"
             id="email"
             placeholder="Email"
+            required
           />
         </div>
+
         <div class="form-group">
-          <label for="message">Message</label>
-          <textarea
-            class="form-control"
-            id="message"
-            rows="3"
+          <label for="message"></label>
+          <input
+            class="form-control big-input"
+            type="text"
             placeholder="Message"
-          ></textarea>
+            required
+          />
+        </input>
+
         </div>
         <button type="submit" class="btn btn-primary">Get in touch</button>
       </form>
     </footer>
-  </body>
-</html>
