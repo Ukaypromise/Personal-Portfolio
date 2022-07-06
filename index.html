@@ -245,54 +245,37 @@
       </div>
     </section>
     <!-- Footer and Contact Section -->
-    <footer class="footer-bg">
-      <div class="contact-text">
-        <h1>Contact me</h1>
-        <p>
-          If you have an application you are interested in developing, a feature
-          that you need built or a project that needs coding. I’d love to help
-          with it
-        </p>
-      </div>
-
-      
-      <form action="" class="form-contact">
-        <!-- name input -->
-        <div class="form-group">
-          <label for="name"></label>
-          <input
-            type="text"
-            class="form-control"
-            id="name"
-            placeholder="Name"
-            required
-          />
+    <footer>
+      <form action="" method="POST" class="contact-form">
+        <div class="form-info">
+          <h2>Conatct Me</h2>
+          <p>
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it
+          </p>
         </div>
 
-        <!-- email input -->
-        <div class="form-group">
-          <label for="email"></label>
-          <input
-            type="email"
-            class="form-control"
-            id="email"
-            placeholder="Email"
-            required
-          />
-        </div>
+        <input
+          type="text"
+          name="name"
+          required
+          maxlength="30"
+          placeholder="Name"
+        />
 
-        <!-- text free input -->
-        <div class="form-group">
-          <label for="message"></label>
-          <input
-            class="form-control big-input"
-            type="text"
-            placeholder="Message"
-            required
-          />
-        </input>
+        <input type="email" name="email" required placeholder="Email" />
 
-        </div>
-        <button type="submit" class="btn btn-primary">Get in touch</button>
+        <textarea
+          class="text-area"
+          name="message"
+          maxlength="500"
+          required
+          placeholder="write your message here"
+        ></textarea>
+
+        <button class="form-btn" type="submit">Get in Touch</button>
       </form>
     </footer>
+  </body>
+</html>
