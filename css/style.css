@@ -413,11 +413,6 @@ input {
   font-weight: 320;
 }
 
-.form-btn {
-  border: none;
-  float: left;
-}
-
 .form-btn:hover {
   background-color: #6070ff;
   color: #fff;
