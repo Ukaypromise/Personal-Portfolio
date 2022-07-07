@@ -241,48 +241,44 @@
         </ul>
         <button type="button" class="btn-resume">Get my resume</button>
       </div>
-      
+
       <!-- Langauges -->
       <div class="dev-stacks">
-        <div class="dev-stack">
+        <div class="dev-stack open">
           <h3>Languages</h3>
           <i class="fa-solid fa-angle-down"></i>
         </div>
+        <div class="open">
+          <div class="stack-container">
+            <ul class="stack-list">
+              <li class="stack-item">
+                <i class="js fa-brands fa-js-square fa-2xl"></i>
+                <p>Javascript</p>
+              </li>
+              <li class="stack-item">
+                <i class="html fa-brands fa-html5 fa-2xl"></i>
+                <p>HTML</p>
+              </li>
+              <li class="stack-item">
+                <i class="css fa-brands fa-css3-alt fa-2xl"></i>
+                <p>CSS</p>
+              </li>
+            </ul>
+          </div>
+          <div class="dev-stack">
+            <h3>Framework</h3>
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
 
-        <div class="stack-container">
-          <ul class="stack-list">
-            <li class="stack-item">
-              <i class="js fa-brands fa-js-square fa-2xl"></i>
-              <p>Javascript</p>
-            </li>
-            <li class="stack-item">
-              <i class="html fa-brands fa-html5 fa-2xl"></i>
-              <p>HTML</p>
-            </li>
-            <li class="stack-item">
-              <i class="css fa-brands fa-css3-alt fa-2xl"></i>
-              <p>CSS</p>
-            </li>
-          </ul>
-        </div>
-        <div class="dev-stack">
-          <h3>Framework</h3>
-          <i class="fa-solid fa-angle-right"></i>
-        </div>
-
-        <div class="dev-stack">
-          <h3>skills</h3>
-          <i class="fa-solid fa-angle-right"></i>
+          <div class="dev-stack">
+            <h3>skills</h3>
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
         </div>
       </div>
     </section>
     <!-- Footer and Contact Section -->
-
-    <form
-      action="https://formspree.io/f/xpzbgplp"
-      method="POST"
-      class="contact-form"
-    >
+    <footer class="contact-form">
       <div class="form-info">
         <h2>Contact me</h2>
         <p>
@@ -292,25 +288,27 @@
         </p>
       </div>
 
-      <input
-        type="text"
-        name="name"
-        required
-        maxlength="30"
-        placeholder="Name"
-      />
+      <form action="https://formspree.io/f/xpzbgplp" method="POST" class="form">
+        <input
+          type="text"
+          name="name"
+          required
+          maxlength="30"
+          placeholder="Name"
+        />
 
-      <input type="email" name="email" required placeholder="Email" />
+        <input type="email" name="email" required placeholder="Email" />
 
-      <textarea
-        class="text-area"
-        name="message"
-        maxlength="500"
-        required
-        placeholder="write your message here"
-      ></textarea>
+        <textarea
+          class="text-area"
+          name="message"
+          maxlength="500"
+          required
+          placeholder="write your message here"
+        ></textarea>
 
-      <button class="form-btn" type="submit">Get in Touch</button>
-    </form>
+        <button class="form-btn" type="submit">Get in Touch</button>
+      </form>
+    </footer>
   </body>
 </html>

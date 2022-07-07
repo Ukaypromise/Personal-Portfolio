@@ -262,7 +262,7 @@ h4 {
   padding: 12px;
   background-color: #fff;
   margin-top: 15px;
-  width: 50%;
+  width: fit-content;
   cursor: pointer;
   transition: 0.5s ease-in-out;
 }
@@ -285,6 +285,10 @@ button:hover {
   padding: 100px 20px 20px 20px;
 }
 
+.content2,
+.dev-stacks {
+  flex: 1;
+}
 /* Langauges */
 
 .dev-stacks {
@@ -296,13 +300,20 @@ button:hover {
 }
 
 .dev-stack {
+  width:600px;
   display: flex;
+  justify-content: space-between;
   font-size: 20px;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
   border-bottom: solid 1px #dfe1e6;
   padding: 15px 0;
+}
+
+
+
+.dev-stack:first-child {
+  border-bottom: none;
 }
 
 .stack-item {
@@ -316,7 +327,7 @@ button:hover {
   border-radius: 8px;
   color: #253858;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 20px;
 }
 
@@ -338,21 +349,20 @@ button:hover {
 
 /* <<<<<Footer>>>>> */
 
-footer {
-  background-color: red;
+.contact-form {
+  background: url("../images/form-contact.png");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
-.contact-form {
+.form {
   color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 60px 55px 55px 55px;
   gap: 20px;
-  background: url("../images/form-contact.png");
-  background-color: white;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
 }
 
 input {
@@ -384,6 +394,7 @@ input {
 }
 
 .form-info {
+  color: #fff;
   align-items: center;
   text-align: center;
   margin: 20px 0;
@@ -471,4 +482,70 @@ input {
   }
 
   /* <<<<<<< About Section>>>>>>> */
+
+  .about-me {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    gap:10px;
+  }
+
+  .stack-list {
+    display: flex;
+    flex-direction: row;
+  }
+  .stack-item {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 5px;
+  }
+
+  .fa-brands {
+    align-self: flex-start;
+  }
+
+  .stack-item p {
+    align-self: flex-start;
+  }
+
+  .open{
+    padding-left:50px;
+  }
+
+  /* <<<<<<< Contact Section>>>>>>> */
+  
+  footer {
+    padding: 20px auto;
+  }
+
+  .contact-form {
+    background: url("../images/desktop-contact.svg");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    background-color: #6070FF;
+  }
+
+  .form-info {
+    width: 550px;
+    padding: 0;
+    text-align: center;
+  }
+  .form {
+    width: 550px;
+    padding: 0;
+    align-items: center;
+  }
+  input {
+    width: 500px;
+  }
+  .text-area {
+    width: 500px;
+  }
 }
