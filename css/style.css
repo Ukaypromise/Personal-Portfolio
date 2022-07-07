@@ -180,10 +180,11 @@ a {
   grid-row-start: 4;
 }
 
-.content1, .image-container {
-    flex: 1;
-    margin: 5px;
-  }
+.content1,
+.image-container {
+  flex: 1;
+  margin: 5px;
+}
 
 .work-title {
   font-size: 34px;
@@ -409,6 +410,7 @@ input {
 /* <<<<<<< Desktop Screen >>>>>>> */
 
 @media screen and (min-width: 620px) {
+  /* <<<<<<< Headline and Navbar >>>>>>> */
 
   .container {
     padding: 30px;
@@ -450,6 +452,8 @@ input {
     background-repeat: no-repeat;
   }
 
+  /* <<<<<<< Work Section >>>>>>> */
+
   .work-info1,
   .work-info2,
   .work-info3,
@@ -459,10 +463,12 @@ input {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
- 
-  .work-info2, .work-info4 {
+
+  .work-info2,
+  .work-info4 {
     display: flex;
     flex-direction: row-reverse;
   }
-  
+
+  /* <<<<<<< About Section>>>>>>> */
 }
