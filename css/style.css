@@ -289,10 +289,9 @@ button:hover {
 .dev-stacks {
   flex: 1;
 }
-/* Langauges */
 
+/* Langauges */
 .dev-stacks {
-  /* margin: 0 50px; */
   display: flex;
   flex-direction: column;
   margin: 50px 0;
@@ -300,7 +299,7 @@ button:hover {
 }
 
 .dev-stack {
-  width:600px;
+  max-width: 600px;
   display: flex;
   justify-content: space-between;
   font-size: 20px;
@@ -309,8 +308,6 @@ button:hover {
   border-bottom: solid 1px #dfe1e6;
   padding: 15px 0;
 }
-
-
 
 .dev-stack:first-child {
   border-bottom: none;
@@ -397,12 +394,12 @@ input {
   color: #fff;
   align-items: center;
   text-align: center;
-  margin: 20px 0;
+  padding: 20px 0;
 }
 
 .form-info h2 {
   font-size: 40px;
-  margin-top: 20px;
+  padding-top: 20px;
   font-weight: 700;
 }
 
@@ -486,13 +483,14 @@ input {
   .about-me {
     display: grid;
     grid-template-columns: 1.5fr 2fr;
-    gap:10px;
+    gap: 10px;
   }
 
   .stack-list {
     display: flex;
     flex-direction: row;
   }
+
   .stack-item {
     width: 100px;
     height: 100px;
@@ -511,12 +509,7 @@ input {
     align-self: flex-start;
   }
 
-  .open{
-    padding-left:50px;
-  }
-
   /* <<<<<<< Contact Section>>>>>>> */
-  
   footer {
     padding: 20px auto;
   }
@@ -529,23 +522,32 @@ input {
     justify-content: center;
     align-items: center;
     padding: 40px 0;
-    background-color: #6070FF;
+    background-color: #6070ff;
   }
 
   .form-info {
     width: 550px;
     padding: 0;
     text-align: center;
+    margin-bottom: 20px;
   }
+
   .form {
     width: 550px;
     padding: 0;
     align-items: center;
   }
+
   input {
     width: 500px;
   }
+
   .text-area {
     width: 500px;
+  }
+
+  .about-me .content2 {
+    align-items: center;
+    margin-left: 60px;
   }
 }
