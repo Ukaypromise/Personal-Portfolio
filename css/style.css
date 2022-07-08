@@ -101,7 +101,7 @@ a {
 }
 
 .headline-connect {
-  margin: 2rem 0;
+  margin: 1.5rem 0;
   color: #7f8cff;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -191,12 +191,13 @@ a {
   font-weight: 700;
   color: #344563;
   line-height: 44px;
-  margin: 20px 0 20px 0;
+  margin: 20px 0 10px 0;
   padding-left: 20px;
 }
 
 h4 {
   margin-left: 20px;
+  margin-bottom: 20px;
   color: #344563;
   font-weight: 600;
   font-size: 13px;
@@ -235,7 +236,7 @@ h4 {
 .stack {
   font-size: 12px;
   padding: 5px 15px;
-  margin: 0 20px;
+  margin: 0 10px;
   border-radius: 8px;
   background-color: #ebebff;
   color: #6070ff;
@@ -294,7 +295,7 @@ button:hover {
 .dev-stacks {
   display: flex;
   flex-direction: column;
-  margin: 50px 0;
+  margin: 10px 0;
   width: 100%;
 }
 
@@ -309,6 +310,13 @@ button:hover {
   padding: 15px 0;
 }
 
+.dev-stack h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #344563;
+}
+
 .dev-stack:first-child {
   border-bottom: none;
 }
@@ -320,7 +328,7 @@ button:hover {
   gap: 20px;
   background-color: #f5f5f5;
   margin: 0 0 25px 0;
-  padding: 20px 40px;
+  padding: 20px 0;
   border-radius: 8px;
   color: #253858;
   font-weight: 500;
@@ -411,7 +419,7 @@ input {
 }
 
 .form-btn:hover {
-  background: #2230d2;
+  background: #6070ff;
   color: #fff;
 }
 
@@ -482,7 +490,7 @@ input {
 
   .about-me {
     display: grid;
-    grid-template-columns: 1.5fr 2fr;
+    grid-template-columns: 1fr 1fr;
     gap: 10px;
   }
 
@@ -492,13 +500,13 @@ input {
   }
 
   .stack-item {
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
     margin-left: 10px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 0 5px;
+    padding: 5px 5px;
   }
 
   .fa-brands {
