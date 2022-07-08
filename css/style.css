@@ -428,6 +428,17 @@ input {
 @media screen and (min-width: 768px) {
   /* <<<<<<< Headline and Navbar >>>>>>> */
 
+  .navbar > a {
+    font-size: 50px;
+    transition: all 0.5s ease-out;
+  }
+git 
+  .navbar > a:hover {
+    font-size: 100px;
+    transition: 0.5s;
+    transform: rotate(180deg);
+  }
+
   .container {
     padding: 30px;
     margin: 0 auto;
