@@ -15,6 +15,10 @@ This is my Microverse Personal Portfolio.
 - Clone the repo
 - From you terminal run " code ." to open in your code editor.
 
+## Sneak peek to my Portfolio Project
+
+- Portfolio: [Promise Uka](https://ukaypromise.github.io/Personal-Portfolio/)
+
 **Setting up My Personal Portolio task**
 
 ## Authors
