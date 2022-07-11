@@ -412,6 +412,7 @@ input {
 }
 
 .form-info p {
+  margin-top: 10px;
   font-size: 18px;
   font-weight: 400;
   color: #ebebff;
