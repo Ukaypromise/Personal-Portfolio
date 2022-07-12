@@ -45,7 +45,7 @@
           you see and have a project you need coded, don’t hestiate to contact
           me.
         </p>
-        <h3 class="headline-connect">LET'S CONNECT</h3>
+        <h2 class="headline-connect">LET'S CONNECT</h2>
 
         <ul class="headline-icons">
           <li>
@@ -89,7 +89,7 @@
       <!-- Work Section 1-->
       <div class="work-info1">
         <div class="image-container">
-          <img src="./images/work-image1.png" alt="tonic" class="work-img" />
+          <img src="./images/work-image1.png" alt="tonic work content1" class="work-img" />
         </div>
 
         <div class="content1">
@@ -115,7 +115,7 @@
 
       <div class="work-info2">
         <div class="image-container">
-          <img src="./images/work-image2.png" alt="multi" class="work-img" />
+          <img src="./images/work-image2.png" alt="multi work content1" class="work-img" />
         </div>
         <div class="content1">
           <h3 class="work-title">
@@ -143,7 +143,7 @@
 
       <div class="work-info3">
         <div class="image-container">
-          <img src="./images/work-image3.png" alt="tonic" class="work-img" />
+          <img src="./images/work-image3.png" alt="tonic work content2" class="work-img" />
         </div>
         <div class="content1">
           <h3 class="work-title">Tonic</h3>
@@ -168,7 +168,7 @@
 
       <div class="work-info4">
         <div class="image-container">
-          <img src="./images/work-img4.png" alt="multi" class="work-img" />
+          <img src="./images/work-img4.png" alt="multi-post work content2" class="work-img" />
         </div>
         <div class="content1">
           <h3 class="work-title">
@@ -295,17 +295,21 @@
       </div>
 
       <form action="https://formspree.io/f/xpzbgplp" method="POST" class="form">
+        <label for="name"></label>
         <input
+          id="name"
           type="text"
           name="name"
           required
           maxlength="30"
           placeholder="Name"
         />
+        <label for="mail" ></label>
+        <input type="email" name="email" id="mail" required placeholder="Email" />
 
-        <input type="email" name="email" required placeholder="Email" />
-
+        <label for="message"></label>
         <textarea
+          id="message"
           class="text-area"
           name="message"
           maxlength="500"
