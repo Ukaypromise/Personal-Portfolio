@@ -36,10 +36,6 @@ a {
   background: white;
 }
 
-.nav-menu {
-  display: none;
-}
-
 .nav-branding {
   font-size: 1.5rem;
   color: #6070ff;
@@ -569,5 +565,40 @@ input {
   .about-me .content2 {
     align-items: center;
     margin-left: 60px;
+  }
+}
+
+/* <<<<<Toggle Menu List>>>>> */
+@media (max-width: 768px) {
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #6070ff;
+    width: 100%;
+    text-align: center;
+    transition: 0.5s;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .hambuger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hambuger.active .bar:nth-child(1) {
+    transform: rotate(45deg) translateY(11px);
+  }
+
+  .hambuger.active .bar:nth-child(3) {
+    transform: rotate(-45deg) translateY(-11px);
+  }
+
+  .nav-menu.active {
+    left: 0;
   }
 }
