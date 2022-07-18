@@ -20,9 +20,13 @@
       <nav class="navbar">
         <a href="#"><h1 class="nav-branding">Promise</h1></a>
         <ul class="nav-menu">
-          <li class="nav-item nav-link"><a href="#">Portfolio</a></li>
-          <li class="nav-item nav-link"><a href="#">About</a></li>
-          <li class="nav-item nav-link"><a href="#">Contact</a></li>
+          <li class="nav-item">
+            <a href="#Portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item"><a href="#About" class="nav-link">About</a></li>
+          <li class="nav-item">
+            <a href="#Contact" class="nav-link">Contact</a>
+          </li>
         </ul>
         <div class="hambuger">
           <span class="bar"></span>
@@ -85,11 +89,15 @@
       </div>
     </section>
     <!-- Work Section Container-->
-    <section class="work-section">
+    <section id="Portfolio" class="work-section">
       <!-- Work Section 1-->
       <div class="work-info1">
         <div class="image-container">
-          <img src="./images/work-image1.png" alt="tonic work content1" class="work-img" />
+          <img
+            src="./images/work-image1.png"
+            alt="tonic work content1"
+            class="work-img"
+          />
         </div>
 
         <div class="content1">
@@ -115,7 +123,11 @@
 
       <div class="work-info2">
         <div class="image-container">
-          <img src="./images/work-image2.png" alt="multi work content1" class="work-img" />
+          <img
+            src="./images/work-image2.png"
+            alt="multi work content1"
+            class="work-img"
+          />
         </div>
         <div class="content1">
           <h3 class="work-title">
@@ -143,7 +155,11 @@
 
       <div class="work-info3">
         <div class="image-container">
-          <img src="./images/work-image3.png" alt="tonic work content2" class="work-img" />
+          <img
+            src="./images/work-image3.png"
+            alt="tonic work content2"
+            class="work-img"
+          />
         </div>
         <div class="content1">
           <h3 class="work-title">Tonic</h3>
@@ -168,7 +184,11 @@
 
       <div class="work-info4">
         <div class="image-container">
-          <img src="./images/work-img4.png" alt="multi-post work content2" class="work-img" />
+          <img
+            src="./images/work-img4.png"
+            alt="multi-post work content2"
+            class="work-img"
+          />
         </div>
         <div class="content1">
           <h3 class="work-title">
@@ -193,7 +213,7 @@
       </div>
     </section>
     <!-- About Section -->
-    <section class="about-me">
+    <section id="About" class="about-me">
       <div class="content2">
         <h1 class="headline-main">About <br />Myself</h1>
         <p class="headline-paragraph">
@@ -284,7 +304,7 @@
       </div>
     </section>
     <!-- Footer and Contact Section -->
-    <footer class="contact-form">
+    <footer id="Contact" class="contact-form">
       <div class="form-info">
         <h2>Contact me</h2>
         <p>
@@ -304,8 +324,14 @@
           maxlength="30"
           placeholder="Name"
         />
-        <label for="mail" ></label>
-        <input type="email" name="email" id="mail" required placeholder="Email" />
+        <label for="mail"></label>
+        <input
+          type="email"
+          name="email"
+          id="mail"
+          required
+          placeholder="Email"
+        />
 
         <label for="message"></label>
         <textarea
@@ -320,5 +346,6 @@
         <button class="form-btn" type="submit">Get in Touch</button>
       </form>
     </footer>
+    <script src="./js/app.js"></script>
   </body>
 </html>
