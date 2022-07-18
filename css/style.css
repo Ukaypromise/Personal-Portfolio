@@ -577,9 +577,18 @@ input {
     gap: 0;
     flex-direction: column;
     background-color: #6070ff;
+    
+    height: 100%;
     width: 100%;
     text-align: center;
     transition: 0.5s;
+  }
+
+  .nav-menu .nav-link {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #ffffff;
   }
 
   .nav-item {
