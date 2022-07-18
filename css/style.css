@@ -576,7 +576,7 @@ input {
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 0px;
+    top: 0;
     gap: 0;
     flex-direction: column;
     background-color: #6070ff;
@@ -587,14 +587,13 @@ input {
     transition: 0.5s;
     filter: drop-shadow(20px);
     opacity: 0.95;
-    
   }
 
   .nav-menu .nav-link {
     font-weight: 600;
     font-size: 32px;
     line-height: 44px;
-    color: #ffffff;
+    color: #fff;
   }
 
   .nav-item {
@@ -603,22 +602,22 @@ input {
 
   .hambuger.active .bar:nth-child(2) {
     opacity: 0;
-
   }
 
   .hambuger.active .bar:nth-child(1) {
     transform: rotate(45deg) translateY(11px);
-    background-color: #ffffff;
+    background-color: #fff;
   }
 
   .hambuger.active .bar:nth-child(3) {
     transform: rotate(-45deg) translateY(-11px);
-    background-color: #ffffff;
+    background-color: #fff;
   }
 
   .nav-menu.active {
     left: 0;
   }
+
   .bar.active {
     left: 0;
   }
