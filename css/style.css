@@ -48,6 +48,9 @@ a {
 .hambuger {
   display: block;
   cursor: pointer;
+  position: absolute;
+  top: 1.5rem;
+  right: 20px;
 }
 
 .bar {
@@ -580,7 +583,8 @@ input {
     
     height: 100%;
     width: 100%;
-    text-align: center;
+    text-align: flex-start;
+    padding: 3rem;
     transition: 0.5s;
   }
 
