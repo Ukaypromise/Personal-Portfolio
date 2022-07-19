@@ -185,21 +185,20 @@ a {
 .content1,
 .image-container {
   flex: 1;
-  margin: 5px;
+  margin: 2px;
 }
 
 .work-title {
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 700;
   color: #344563;
   line-height: 44px;
-  margin: 20px 0 10px 0;
+  margin: 5px 0 10px 0;
   padding-left: 20px;
 }
 
 h4 {
   margin-left: 20px;
-  margin-bottom: 20px;
   color: #344563;
   font-weight: 600;
   font-size: 13px;
@@ -207,9 +206,9 @@ h4 {
 }
 
 .title-description {
-  font-size: 20px;
+  font-size: 15px;
   color: #344563;
-  margin: 0 0 20px 0;
+  margin: 0 0 5px 0;
   padding-left: 20px;
   font-weight: 400;
   line-height: 30px;
@@ -249,7 +248,7 @@ h4 {
   border: solid 1px #6070ff;
   color: #6070ff;
   border-radius: 10px;
-  margin: 50px 0 50px 20px;
+  margin: 20px 0 10px 20px !important;
   padding: 12px;
   background-color: #fff;
   width: fit-content;
@@ -625,3 +624,25 @@ input {
     left: 0;
   }
 }
+/* <<<<<Modal Pop-up>>>>> */
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  order: 1px solid red;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: solid 1px #dfe1e6;
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 18px;
+  grid-row-start: 4;
+}
+
+
