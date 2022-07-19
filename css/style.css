@@ -628,13 +628,20 @@ input {
 .modal-container {
   position: fixed;
   top: 0;
-  left: 0;
+  left: 0; 
   height: 100vh;
   width: 100%;
-  order: 1px solid red;
+  border: 1px solid red;
+  background: #c1c7d0;
+  display: none;
 }
 
 .modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -643,6 +650,41 @@ input {
   background-color: #fff;
   padding: 18px;
   grid-row-start: 4;
+  position: relative;
+  animation: 1s dropdown;
+  /* margin: 80px 20px 0px 20px; */
 }
 
+@keyframes dropdown {
+  0%{
+    top:-100px;
+  }
 
+  100%{
+    top:50px;
+  }
+}
+
+.btn-x {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 35px;
+  color: #67798e;
+  cursor: pointer;
+}
+
+.btn-modal {
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  border: solid 1px #6070ff;
+  color: #6070ff;
+  border-radius: 10px;
+  margin: 20px 0 10px 20px !important;
+  padding: 8px;
+  background-color: #fff;
+  width: fit-content;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
