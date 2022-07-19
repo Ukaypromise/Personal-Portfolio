@@ -60,6 +60,8 @@ a {
   height: 3px;
   margin: 5px auto;
   background-color: #6070ff;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
 }
 
 /* Headline */
