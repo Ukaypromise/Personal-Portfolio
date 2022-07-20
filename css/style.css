@@ -134,6 +134,7 @@ a {
 .image-container img {
   width: 100%;
   height: 100%;
+  margin: 0 auto;
 }
 
 .work-info1 {
@@ -582,7 +583,7 @@ input {
   }
 
   .modal {
-    width: 55%;
+    max-width: 55%;
     height: 90%;
     padding: 30px;
     position: absolute;
@@ -591,13 +592,21 @@ input {
     background-color: #fff;
     transform: translate(-50%, -50%);
   }
+  
+  .image-container {
+    padding-left: 6rem;
+  }
+  .stack-modal {
+    display: flex;
+    flex-direction: row;
+  }
 
   .fix {
     max-width: 800px;
     max-height: 800px;
   }
   .fix img {
-    max-width: 50%;
+    max-width: 60%;
     /* max-height: 100%; */
   }
 }
@@ -714,7 +723,7 @@ input {
   width: 8rem;
   height: 2.5rem;
   border-radius: 8px;
-  border: 1px solid #6070ff;
+  border: 1px solid #a7aef1;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -727,6 +736,6 @@ input {
 }
 
 .btn-modal:hover {
-  background-color: #6070ff;
+  background-color: #a1a8f7;
   color: #ffff;
 }

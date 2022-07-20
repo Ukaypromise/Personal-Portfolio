@@ -104,42 +104,42 @@ modalContent.addEventListener("click", (e) => {
 });
 
 const workSection = document.querySelector(".work-section");
-window.addEventListener("DOMContentLoaded", () => {
-  let displayCards = projects.map((project) => {
-    return `
-      <div id=${project.id} >
-        <div class="work-info1">
-            <div class="image-container">
-              <img
-                src=${project.image}
-                alt="multi-post work content2"
-                class="work-img"
-              />
-            </div>
-            <div class="content1">
-              <h3 class="work-title">
-                ${project.name}
-              </h3>
-              <h4>
-                CANOPY <span class="dot tag"> Back End dev </span>
-                <span class="dot tag">2015</span>
-              </h4>
-              <p class="title-description">
-              ${project.description}
-              </p>
-              <ul class="stack-group">
-              ${project.technologies
-                .map((tech) => `<li class="stack">${tech}</li>`)
-                .join("")}
-              </ul>
-              <button ${
-                projects.id
-              } type="button" class="btn" id="btn-4">See Project</button>
-            </div>
-          </div>
-      </div>`;
-  });
+// window.addEventListener("DOMContentLoaded", () => {
+//   let displayCards = projects.map((project) => {
+//     return `
+//       <div id=${project.id} >
+//         <div class="work-info1">
+//             <div class="image-container">
+//               <img
+//                 src=${project.image}
+//                 alt="multi-post work content2"
+//                 class="work-img"
+//               />
+//             </div>
+//             <div class="content1">
+//               <h3 class="work-title">
+//                 ${project.name}
+//               </h3>
+//               <h4>
+//                 CANOPY <span class="dot tag"> Back End dev </span>
+//                 <span class="dot tag">2015</span>
+//               </h4>
+//               <p class="title-description">
+//               ${project.description}
+//               </p>
+//               <ul class="stack-group">
+//               ${project.technologies
+//                 .map((tech) => `<li class="stack">${tech}</li>`)
+//                 .join("")}
+//               </ul>
+//               <button ${
+//                 projects.id
+//               } type="button" class="btn" id="btn-4">See Project</button>
+//             </div>
+//           </div>
+//       </div>`;
+//   });
 
-  displayCards = displayCards.join("");
-  workSection.innerHTML = displayCards;
-});
+//   displayCards = displayCards.join("");
+//   workSection.innerHTML = displayCards;
+// });
