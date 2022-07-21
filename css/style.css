@@ -583,8 +583,8 @@ input {
   }
 
   .modal {
-    max-width: 55%;
-    height: 90%;
+    max-width: 60%;
+    height: 95%;
     padding: 30px;
     position: absolute;
     top: 50%;

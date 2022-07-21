@@ -77,15 +77,14 @@ const onModalOpen = async (id) => {
   document.getElementById('group-list').innerHTML = getData.technologies
     .map((tech) => `<li class="stack">${tech}</li>`)
     .join('');
-    ;
 };
-
+const p = onModalOpen;
 
 const onModalClose = () => {
   const modal = document.querySelector('.modal-container');
   modal.style.display = 'none';
 };
-onModalClose();
+onModalClose(p);
 
 window.addEventListener('DOMContentLoaded', () => {
   const displayCards = projects.map(
