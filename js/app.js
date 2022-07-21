@@ -77,8 +77,9 @@ const onModalOpen = async (id) => {
   document.getElementById('group-list').innerHTML = getData.technologies
     .map((tech) => `<li class="stack">${tech}</li>`)
     .join('');
+    ;
 };
-onModalOpen();
+
 
 const onModalClose = () => {
   const modal = document.querySelector('.modal-container');
