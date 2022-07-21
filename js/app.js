@@ -128,7 +128,7 @@ window.addEventListener("DOMContentLoaded", () => {
 const form = document.getElementById("form");
 
 const INVALID_EMAIL =
-  "Oops!, failed to send. Your email should be in lowercase e.g promise@gmail.com";
+  "Oops!, failed to send. Take in account your email should be in lowercase e.g promise@gmail.com";
 
 function showMessage(input, message, type) {
   document.querySelector("small").innerText = message;
