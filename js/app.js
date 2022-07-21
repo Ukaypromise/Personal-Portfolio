@@ -79,12 +79,13 @@ const onModalOpen = async (id) => {
     .join('');
 };
 onModalOpen();
+
 const onModalClose = () => {
   const modal = document.querySelector('.modal-container');
   modal.style.display = 'none';
 };
 onModalClose();
-// const workSection = document.getElementById("Portfolio");
+
 window.addEventListener('DOMContentLoaded', () => {
   const displayCards = projects.map(
     (project) => `
