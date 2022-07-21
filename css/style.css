@@ -592,8 +592,11 @@ input {
     background-color: #fff;
     transform: translate(-50%, -50%);
   }
+
   .image-contain {
     padding-left: 6rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
   }
 
   .stack-modal {
@@ -605,8 +608,10 @@ input {
     max-width: 800px;
     max-height: 800px;
   }
+
   .fix img {
     max-width: 60%;
+
     /* max-height: 100%; */
   }
 }
@@ -678,7 +683,6 @@ input {
 }
 
 .modal {
-  position: absolute;
   top: 50%;
   left: 50%;
   width: 90%;
@@ -693,6 +697,10 @@ input {
   grid-row-start: 4;
   position: relative;
   animation: 1s dropdown;
+}
+
+.modal .work-title {
+  font-size: 28px;
 }
 
 @keyframes dropdown {

@@ -89,84 +89,49 @@
       </div>
     </section>
     <!-- Work Section Container-->
-    <section id="Portfolio" class="work-section">
-      <!-- Work Section 1-->
-      <div class="work-info1">
-        <div class="image-container">
-          <img
-            src="./images/work-img4.png"
-            alt="multi-post work content2"
-            class="work-img"
-          />
-        </div>
+    <div id="cards" class="work-section"></div>
+    <section id="card-modal" class="modal-container">
+      <div class="modal">
+        <h3 class="work-title" id="modal-title">Tonic</h3>
+        <span onclick="onModalClose()" class="btn-x" draggable="true"
+          >&times;</span
+        >
+        <h4>
+          CANOPY <span class="dot tag"> Back End dev </span>
+          <span class="dot tag">2015</span>
+        </h4>
         <div class="content1">
-          <h3 class="work-title">
-            Multi-Post <br />
-            Stories
-          </h3>
-          <h4>
-            CANOPY <span class="dot tag"> Back End dev </span>
-            <span class="dot tag">2015</span>
-          </h4>
-          <p class="title-description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="stack-group">
-            <li class="stack">html</li>
-            <li class="stack">css</li>
-            <li class="stack">javascript</li>
-          </ul>
-          <button type="button" class="btn" id="btn-4">See Project</button>
-        </div>
-      </div>
-      <!-- Modal Pop-up -->
-      <section class="modal-container">
-        <div class="modal">
-          <h3 class="work-title" id="modal-title">Tonic</h3>
-          <span class="btn-x" draggable="true">&times;</span>
-          <h4>
-            CANOPY <span class="dot tag"> Back End dev </span>
-            <span class="dot tag">2015</span>
-          </h4>
-          <div class="content1">
-            <div class="image-contain fix">
-              <img
-                src="./images/work-img4.png"
-                alt="multi-post work content2"
-                class="work-img"
-                id="modal-img"
-              />
-            </div>
-            <div class="stack-modal">
-              <p class="title-description" id="modal-desc">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required. A daily selection of privately
-                personalized reads; no accounts or sign-ups required. A daily
-                selection of privately personalized reads; no accounts or
-                sign-ups required.
-              </p>
-              <div>
-                <ul class="stack-group">
-                  <li class="stack">html</li>
-                  <li class="stack">css</li>
-                  <li class="stack">javascript</li>
-                </ul>
-                <div class="stack-group">
-                  <a class="btn-modal" id="modal-see-live"
-                    >See live<span
-                      ><img src="./images/export.png" alt="export" /></span
-                  ></a>
-                  <a class="btn-modal" id="modal-see-source"
-                    >See Source<span
-                      ><img src="./images/github.png" alt="github" /></span
-                  ></a>
-                </div>
+          <div class="image-contain fix">
+            <img
+              src="./images/work-img4.png"
+              alt="multi-post work content2"
+              class="work-img"
+              id="modal-img"
+            />
+          </div>
+          <div class="stack-modal">
+            <p class="title-description" id="modal-desc">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. A daily selection of privately personalized
+              reads; no accounts or sign-ups required. A daily selection of
+              privately personalized reads; no accounts or sign-ups required.
+            </p>
+            <div>
+              <ul id="group-list" class="stack-group"></ul>
+              <div class="stack-group">
+                <a class="btn-modal" id="modal-see-live"
+                  >See live<span
+                    ><img src="./images/export.png" alt="export" /></span
+                ></a>
+                <a class="btn-modal" id="modal-see-source"
+                  >See Source<span
+                    ><img src="./images/github.png" alt="github" /></span
+                ></a>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </section>
     <!-- About Section -->
     <section id="About" class="about-me">
