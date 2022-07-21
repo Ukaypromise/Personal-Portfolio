@@ -592,10 +592,10 @@ input {
     background-color: #fff;
     transform: translate(-50%, -50%);
   }
-  
-  .image-container {
+  .image-contain {
     padding-left: 6rem;
   }
+
   .stack-modal {
     display: flex;
     flex-direction: row;
