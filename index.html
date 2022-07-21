@@ -235,7 +235,12 @@
         </p>
       </div>
 
-      <form action="https://formspree.io/f/xpzbgplp" method="POST" class="form">
+      <form
+        action="https://formspree.io/f/xpzbgplp"
+        method="POST"
+        class="form"
+        id="form"
+      >
         <label for="name"></label>
         <input
           id="name"
@@ -263,8 +268,11 @@
           required
           placeholder="write your message here"
         ></textarea>
-
-        <button class="form-btn" type="submit">Get in Touch</button>
+        <div></div>
+        <small class="message-detail"></small>
+        <button class="form-btn" type="submit" id="submit-btn">
+          Get in Touch
+        </button>
       </form>
     </footer>
     <script src="./js/app.js"></script>
