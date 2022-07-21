@@ -735,15 +735,14 @@ input {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.25rem;
-  letter-spacing: 0.02em;
   color: #396df2;
-  transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in;
   margin: 20px 0 10px 15px !important;
 }
 
 .btn-modal:hover {
-  background-color: #a1a8f7;
   color: #ffff;
+  background-color: #396df2;
 }
