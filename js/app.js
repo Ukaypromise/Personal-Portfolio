@@ -152,11 +152,41 @@ function emailValidation(input, invalidMsg) {
   return true;
 }
 
+// Preserve Data In-Browser
+const username = document.getElementById('name');
+const email = document.getElementById('email');
+const message = document.getElementById('message');
+let user;
+function saveData() {
+  user = {
+    name: '',
+    email: '',
+    message: '',
+  };
+  user.name = username.value;
+  user.email = email.value;
+  user.message = message.value;
+  localStorage.setItem('usermessage', JSON.stringify(user));
+}
+username.onchange = saveData;
+email.onchange = saveData;
+message.onchange = saveData;
+
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   const emailValid = emailValidation(form.elements.email, INVALID_EMAIL);
   if (emailValid) {
+    localStorage.setItem('usermessage', JSON.stringify(user));
     form.submit();
-    localStorage.clear();
+  }
+});
+
+// Preserve input data with reload or refresh
+window.addEventListener('load', () => {
+  user = JSON.parse(localStorage.getItem('usermessage'));
+  if (user) {
+    username.value = user.name;
+    email.value = user.email;
+    message.value = user.message;
   }
 });
