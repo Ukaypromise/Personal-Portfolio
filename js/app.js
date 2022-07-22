@@ -176,6 +176,7 @@ form.addEventListener("submit", (e) => {
   }
 });
 
+// Preserve input data with reload or refresh
 window.addEventListener("load", () => {
   const data = localStorage.getItem("usermessage");
   if (data) {
