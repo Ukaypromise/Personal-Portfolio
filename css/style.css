@@ -389,6 +389,13 @@ input {
   border: solid 1px #6070ff;
 }
 
+.message-detail {
+  text-align: center;
+  color: white;
+  border-bottom: 3px solid white;
+  font-size: 16px;
+}
+
 .text-area {
   border-radius: 10px;
   height: 150px;
@@ -421,7 +428,7 @@ input {
 }
 
 .form-btn:hover {
-  background: #6070ff;
+  background: #b7bce9;
   color: #fff;
 }
 
@@ -560,11 +567,11 @@ input {
   }
 
   input {
-    width: 500px;
+    width: 400px;
   }
 
   .text-area {
-    width: 500px;
+    width: 400px;
   }
 
   .about-me .content2 {

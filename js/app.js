@@ -123,3 +123,40 @@ window.addEventListener('DOMContentLoaded', () => {
   );
   document.getElementById('cards').innerHTML = displayCards.join('');
 });
+
+// Form Validation
+const form = document.getElementById('form');
+
+const INVALID_EMAIL = 'Oops!, failed to send. Take in account your email should be in lowercase e.g promise@gmail.com';
+
+function showMessage(input, message, type) {
+  document.querySelector('small').innerText = message;
+  input.className = type ? 'success' : 'error';
+  return type;
+}
+
+function showError(input, message) {
+  return showMessage(input, message, false);
+}
+
+function showSuccess(input) {
+  return showMessage(input, '', true);
+}
+
+function emailValidation(input, invalidMsg) {
+  const email = input.value.trim();
+  if (email !== email.toLowerCase()) {
+    return showError(input, invalidMsg);
+  }
+  showSuccess(input);
+  return true;
+}
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const emailValid = emailValidation(form.elements.email, INVALID_EMAIL);
+  if (emailValid) {
+    form.submit();
+    localStorage.clear();
+  }
+});
