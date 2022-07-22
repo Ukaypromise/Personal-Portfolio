@@ -31,7 +31,11 @@ This is my Microverse Personal Portfolio.
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+👤 **Robin Benitez**
+
+- GitHub: [@robinbenitezmora](https://github.com/robinbenitezmora)
+
+All thanks to my coding partner whose contribution was vital.
 
 ## Show your support
 
