@@ -167,19 +167,18 @@ form.addEventListener('submit', (e) => {
   e.preventDefault();
   const emailValid = emailValidation(form.elements.email, INVALID_EMAIL);
   if (emailValid) {
-    form.submit();
     user.name = username.value;
     user.email = email.value;
     user.message = message.value;
     localStorage.setItem('usermessage', JSON.stringify(user));
+    form.submit();
   }
 });
 
 // Preserve input data with reload or refresh
 window.addEventListener('load', () => {
-  const data = localStorage.getItem('usermessage');
-  if (data) {
-    const user = JSON.parse(data);
+  const user = JSON.parse(localStorage.getItem('usermessage'));
+  if (user) {
     username.value = user.name;
     email.value = user.email;
     message.value = user.message;
