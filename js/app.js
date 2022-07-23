@@ -20,7 +20,7 @@ navLinks.forEach((link) => {
   });
 });
 
-const projects = [
+const items = [
   {
     id: 1,
     name: 'Tonic',
