@@ -325,21 +325,22 @@ button:hover {
   border-bottom: solid 1px #dfe1e6;
   padding: 15px 6px;
   transition: 0.4s;
+  cursor: pointer;
 }
 
 .dev-stack:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  content: '\02795'; 
   font-size: 13px;
   color: #777;
   float: right;
   margin-left: 5px;
 }
 
-.active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
+.dev-stack.active:after {
+  content: "\2796";
 }
 
-.active, .dev-stack:hover {
+.dev-stack.active, .dev-stack:hover {
   background-color: #ccc;
 }
 
@@ -387,6 +388,10 @@ button:hover {
 .css {
   color: blue;
 }
+
+.izon {
+  width: 50px !important;
+  height: 50px !important;}
 
 /* <<<<<Footer>>>>> */
 
@@ -561,7 +566,7 @@ input {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 5px 5px;
+    padding: 15px 15px;
   }
 
   .fa-brands {
