@@ -10,7 +10,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: #e5e5e5;
+  background: #e5e5e5 !important;
 }
 
 header {
@@ -46,6 +46,21 @@ a {
   transition: all 0.5s ease;
 }
 
+/* Style navlinks */
+.nav-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #344563;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  transition: all 0.5s ease;
+}
+/* Style navlinks on hover */
+.nav-link:hover {
+  color: #6070ff;
+}
 .hambuger {
   display: block;
   cursor: pointer;
@@ -308,9 +323,30 @@ button:hover {
   flex-direction: row;
   align-items: center;
   border-bottom: solid 1px #dfe1e6;
-  padding: 15px 0;
+  padding: 15px 6px;
+  transition: 0.4s;
+  cursor: pointer;
 }
 
+.dev-stack:after {
+  content: '\02795'; 
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.dev-stack.active:after {
+  content: "\2796";
+}
+
+.dev-stack.active, .dev-stack:hover {
+  background-color: #ccc;
+}
+
+.stack-container{
+  display: none;
+}
 .dev-stack h3 {
   font-weight: 500;
   font-size: 20px;
@@ -352,6 +388,10 @@ button:hover {
 .css {
   color: blue;
 }
+
+.izon {
+  width: 50px !important;
+  height: 50px !important;}
 
 /* <<<<<Footer>>>>> */
 
@@ -439,14 +479,14 @@ input {
 
   .navbar > a {
     font-size: 50px;
-    transition: all 0.5s ease-out;
+    /* transition: all 0.5s ease-out; */
   }
-
+/* 
   .navbar > a:hover {
     font-size: 100px;
     transition: 0.5s;
     transform: rotate(180deg);
-  }
+  } */
 
   .container {
     padding: 30px;
@@ -495,7 +535,7 @@ input {
   .work-info3,
   .work-info4 {
     width: 90%;
-    margin: 50px auto;
+    margin: 30px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -526,7 +566,7 @@ input {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 5px 5px;
+    padding: 15px 15px;
   }
 
   .fa-brands {
