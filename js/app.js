@@ -37,7 +37,7 @@ const projects = [
     description:
       "Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.",
     image: "../images/math.png",
-    technologies: ["html", "css", "JavaScript", "React"],
+    technologies: [ "css",  "React"],
     link: "https://mathy-calculator.netlify.app/",
     source: "https://github.com/Ukaypromise/Math-Magician",
   },
@@ -57,7 +57,7 @@ const projects = [
     description:
       "This is a capstone for the Microverse Module 3 (React-Redux) project. React, Redux/Toolkit, and React Linters were used in its construction to enforce best practices for react code. The Project aims to retrieve API data, display cryptocurrency, and query API endpoints for data related to market listings for coins.",
     image: "../images/crypto.png",
-    technologies: ["React", "Redux", "Styled Components"],
+    technologies: ["React", "Redux", "Jest"],
     link: "https://6341fe57ccdf94192b341a50--endearing-bonbon-930883.netlify.app/",
     source: "https://github.com/Ukaypromise/react-capstone",
   },
@@ -67,7 +67,7 @@ const projects = [
     description:
       "Bookstore is a web application built with React. It is a Single Page Application (SPA) that allows users to add books, categorise them, and delete books. The project is built using React and Redux.",
     image: "../images/bookstore.png",
-    technologies: ["JavaScript", "React", "Redux", "Webpack", "Jest"],
+    technologies: [ "React", "Redux", "Jest"],
     link: "https://github.com/Ukaypromise/bookstore",
     source: "https://github.com/Ukaypromise/bookstore",
   },
@@ -77,7 +77,7 @@ const projects = [
     description:
       "This is a scheduler or a todo app built with react. With this app, you can add, edit, and delete tasks.",
     image: "../images/todo.png",
-    technologies: ["html", "css", "JavaScript", "React"],
+    technologies: [ "css", "JavaScript", "React"],
     link: "https://phenomenal-cendol-d1ddf8.netlify.app/",
     source: "https://github.com/Ukaypromise/scheduler-app",
   },
@@ -107,7 +107,7 @@ const projects = [
     description:
       "Mmefu Ego(Budget App) is a web application where you can manage your budget. You have a list of transactions associated with a category, so that you can see how much money you spent and on what. Users can signin and add categories of budget and the expenses for their budgets with this application.",
     image: "../images/budget.png",
-    technologies: ["Bootstrap", "Ruby on Rails", "PostgreSQL", "RSpec"],
+    technologies: ["Ruby on Rails", "PostgreSQL", "RSpec"],
     link: "https://serene-otter-7f83bc.netlify.app/",
     source: "https://github.com/Ukaypromise/mmefu-ego-app",
   },
@@ -117,7 +117,7 @@ const projects = [
     description:
       "Mmefu Ego(Budget App) is a web application where you can manage your budget. You have a list of transactions associated with a category, so that you can see how much money you spent and on what. Users can signin and add categories of budget and the expenses for their budgets with this application.",
     image: "../images/recipe.png",
-    technologies: ["Bootstrap", "Ruby on Rails", "PostgreSQL", "RSpec"],
+    technologies: [ "Ruby on Rails", "PostgreSQL", "RSpec"],
     link: "https://github.com/Ukaypromise/Recipe-app",
     source: "https://github.com/Ukaypromise/Recipe-app",
   },
@@ -127,7 +127,7 @@ const projects = [
     description:
       "This is a clone of the Tesla website. It is a single page application built with React and Redux. The project is built using React and Redux.",
     image: "../images/tesla.png",
-    technologies: ["Styled-component", "Reactjs", "Redux"],
+    technologies: ["Reactjs", "Redux"],
     link: "https://devpromiseuka-tesla-clone.netlify.app/",
     source: "https://github.com/Ukaypromise/My-Tesla-Clone",
   },
