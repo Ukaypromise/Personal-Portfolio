@@ -37,7 +37,7 @@ const projects = [
     description:
       "Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.",
     image: "../images/math.png",
-    technologies: [ "css",  "React"],
+    technologies: ["css", "React"],
     link: "https://mathy-calculator.netlify.app/",
     source: "https://github.com/Ukaypromise/Math-Magician",
   },
@@ -45,7 +45,7 @@ const projects = [
     id: 3,
     name: "WeeCode",
     description:
-      " A website for a web development courseA website for a web development course. The project was built with vanilla javascript. Most of the content was rendered dynamically by manipulating the DOM. CSS animations was also used to improve the user experience of the application.",
+      " A website for a web development courseA website for a web development course. The project was built with vanilla javascript. Most of the content was rendered dynamically by manipulating the DOM.",
     image: "../images/wecode.png",
     technologies: ["html", "css", "JavaScript"],
     link: "https://ukaypromise.github.io/capstone-wecode/",
@@ -55,7 +55,7 @@ const projects = [
     id: 4,
     name: "Crypto Master",
     description:
-      "This is a capstone for the Microverse Module 3 (React-Redux) project. React, Redux/Toolkit, and React Linters were used in its construction to enforce best practices for react code. The Project aims to retrieve API data, display cryptocurrency, and query API endpoints for data related to market listings for coins.",
+      "This is a capstone for the Microverse Module 3 (React-Redux) project.  The application  retrieves API data, display cryptocurrency, and query API endpoints for data related to market listings for coins.",
     image: "../images/crypto.png",
     technologies: ["React", "Redux", "Jest"],
     link: "https://6341fe57ccdf94192b341a50--endearing-bonbon-930883.netlify.app/",
@@ -67,7 +67,7 @@ const projects = [
     description:
       "Bookstore is a web application built with React. It is a Single Page Application (SPA) that allows users to add books, categorise them, and delete books. The project is built using React and Redux.",
     image: "../images/bookstore.png",
-    technologies: [ "React", "Redux", "Jest"],
+    technologies: ["React", "Redux", "Jest"],
     link: "https://github.com/Ukaypromise/bookstore",
     source: "https://github.com/Ukaypromise/bookstore",
   },
@@ -77,7 +77,7 @@ const projects = [
     description:
       "This is a scheduler or a todo app built with react. With this app, you can add, edit, and delete tasks.",
     image: "../images/todo.png",
-    technologies: [ "css", "JavaScript", "React"],
+    technologies: ["css", "JavaScript", "React"],
     link: "https://phenomenal-cendol-d1ddf8.netlify.app/",
     source: "https://github.com/Ukaypromise/scheduler-app",
   },
@@ -85,7 +85,7 @@ const projects = [
     id: 7,
     name: "Food App",
     description:
-      "The FoodMD is a web application that has a list of foods and recipes to prepare them. The web application was built based on two APi's, which are the Meals DB and the Involvement API. The web app makes APi call to render a list of meals and also make another API call when a user likes or comment.",
+      "The FoodMD is a web application that has a list of foods and recipes to prepare them. The web application was built based on two APi's. The web app makes APi call to render a list of meals and also make another API call when a user likes or comment.",
     image: "../images/food.png",
     technologies: ["html", "css", "JavaScript"],
     link: "https://capable-tarsier-080db1.netlify.app/",
@@ -105,7 +105,7 @@ const projects = [
     id: 9,
     name: "Budget App",
     description:
-      "Mmefu Ego(Budget App) is a web application where you can manage your budget. You have a list of transactions associated with a category, so that you can see how much money you spent and on what. Users can signin and add categories of budget and the expenses for their budgets with this application.",
+      "Mmefu Ego(Budget App) is a web application where users can manage their budget. You have a list of transactions associated with a category. Users can signin and add categories of budget and the expenses for their budgets with this application.",
     image: "../images/budget.png",
     technologies: ["Ruby on Rails", "PostgreSQL", "RSpec"],
     link: "https://serene-otter-7f83bc.netlify.app/",
@@ -115,9 +115,9 @@ const projects = [
     id: 10,
     name: "Recipe App",
     description:
-      "Mmefu Ego(Budget App) is a web application where you can manage your budget. You have a list of transactions associated with a category, so that you can see how much money you spent and on what. Users can signin and add categories of budget and the expenses for their budgets with this application.",
+      "The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow users to save ingredients, keep track of what they have, create recipes, and generate a shopping list.",
     image: "../images/recipe.png",
-    technologies: [ "Ruby on Rails", "PostgreSQL", "RSpec"],
+    technologies: ["Ruby on Rails", "PostgreSQL", "RSpec"],
     link: "https://github.com/Ukaypromise/Recipe-app",
     source: "https://github.com/Ukaypromise/Recipe-app",
   },

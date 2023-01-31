@@ -246,11 +246,20 @@ h4 {
   color: #7a869a;
 }
 
+.stack-con{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+
+}
+
 .stack-group {
   display: flex;
   flex-direction: row;
   list-style: none;
-  margin: 0 0;
+  margin: 0 1rem;
   padding: 0;
 }
 
@@ -479,7 +488,7 @@ input {
 
 .fix img {
     max-width: 100%;
-    height: auto;
+    max-height: auto;
     display: flex;
     margin: 0 auto;
 
@@ -547,10 +556,12 @@ input {
   .work-info2,
   .work-info3,
   .work-info4 {
-    width: 90%;
+    width: 80%;
     margin: 30px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    box-shadow: 0 16px 24px 2px rgba(96, 36, 207, 0.14),
+      0 6px 30px 5px rgba(67, 8, 230, 0.12), 0 8px 10px -5px rgba(133, 6, 6, 0.2);
   }
 
   .work-info2,
@@ -654,23 +665,24 @@ input {
   }
 
   .image-contain {
-    padding-left: 6rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin: 0 auto;
+   
   }
 
   .stack-modal {
+    margin: 1rem auto;
+    padding: 1rem;
     display: flex;
     flex-direction: row;
   }
 
-  .fix {
-    max-width: 800px;
-    max-height: 800px;
-  }
 
   .fix img {
-    max-width: 60%;
+    max-width: 80%;
+    height: auto;
+    display: flex;
+    margin: 1.2rem auto;
+    padding: 0;
   }
 }
 
