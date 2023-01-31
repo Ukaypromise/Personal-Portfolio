@@ -199,10 +199,6 @@ a {
 
 .content1,
 .image-container {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
   text-align: left;
   flex: 1;
   margin: 2px;
@@ -501,14 +497,8 @@ input {
 
   .navbar > a {
     font-size: 50px;
-    /* transition: all 0.5s ease-out; */
   }
-/* 
-  .navbar > a:hover {
-    font-size: 100px;
-    transition: 0.5s;
-    transform: rotate(180deg);
-  } */
+
 
   .container {
     padding: 30px;
