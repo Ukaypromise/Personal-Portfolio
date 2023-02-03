@@ -131,6 +131,11 @@ a {
   flex-direction: row;
 }
 
+.profile-image {
+    width: 100px;
+    border-radius: 50%;
+  }
+
 .fa-xl {
   margin-right: 1rem;
   color: #505f79;
