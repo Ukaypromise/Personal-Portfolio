@@ -101,13 +101,13 @@ a {
 }
 
 .headline-main {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   color: #172b4d;
   text-align: start;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 30px;
+  line-height: 42px;
 }
 
 .headline-paragraph {
@@ -118,7 +118,7 @@ a {
 }
 
 .headline-connect {
-  margin: 1.5rem 0;
+  margin: 1rem 0;
   color: #7f8cff;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -132,6 +132,7 @@ a {
 }
 
 .profile-image {
+  margin-top: 3rem;
     width: 100px;
     border-radius: 50%;
   }
