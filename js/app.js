@@ -68,7 +68,7 @@ const projects = [
       "Bookstore is a web application built with React. It is a Single Page Application (SPA) that allows users to add books, categorise them, and delete books. The project is built using React and Redux.",
     image: "../images/bookstore.png",
     technologies: ["React", "Redux", "Jest"],
-    link: "https://github.com/Ukaypromise/bookstore",
+    link: "https://grand-druid-30c8d4.netlify.app/",
     source: "https://github.com/Ukaypromise/bookstore",
   },
   {

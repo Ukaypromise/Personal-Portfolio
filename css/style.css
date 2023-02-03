@@ -242,13 +242,12 @@ h4 {
   color: #7a869a;
 }
 
-.stack-con{
+.stack-con {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 10px 0;
-
 }
 
 .stack-group {
@@ -292,6 +291,10 @@ h4 {
   width: fit-content;
   cursor: pointer;
   transition: 0.5s ease-in-out;
+}
+
+.btn-resume > a:hover {
+  color: #fff;
 }
 
 button:hover {
@@ -339,7 +342,7 @@ button:hover {
 }
 
 .dev-stack:after {
-  content: '\02795'; 
+  content: "\02795";
   font-size: 13px;
   color: #777;
   float: right;
@@ -350,11 +353,12 @@ button:hover {
   content: "\2796";
 }
 
-.dev-stack.active, .dev-stack:hover {
+.dev-stack.active,
+.dev-stack:hover {
   background-color: #ccc;
 }
 
-.stack-container{
+.stack-container {
   display: none;
 }
 .dev-stack h3 {
@@ -401,7 +405,8 @@ button:hover {
 
 .izon {
   width: 50px !important;
-  height: 50px !important;}
+  height: 50px !important;
+}
 
 /* <<<<<Footer>>>>> */
 
@@ -483,12 +488,11 @@ input {
 }
 
 .fix img {
-    max-width: 100%;
-    max-height: auto;
-    display: flex;
-    margin: 0 auto;
-
-  }
+  max-width: 100%;
+  max-height: auto;
+  display: flex;
+  margin: 0 auto;
+}
 
 /* <<<<<<< Desktop Screen >>>>>>> */
 
@@ -498,7 +502,6 @@ input {
   .navbar > a {
     font-size: 50px;
   }
-
 
   .container {
     padding: 30px;
@@ -541,9 +544,9 @@ input {
   }
 
   .profile-image {
-  width: 150px;
-  border-radius: 50%;
-}
+    width: 150px;
+    border-radius: 50%;
+  }
 
   /* <<<<<<< Work Section >>>>>>> */
 
@@ -556,7 +559,8 @@ input {
     display: grid;
     grid-template-columns: 1fr 1fr;
     box-shadow: 0 16px 24px 2px rgba(96, 36, 207, 0.14),
-      0 6px 30px 5px rgba(67, 8, 230, 0.12), 0 8px 10px -5px rgba(133, 6, 6, 0.2);
+      0 6px 30px 5px rgba(67, 8, 230, 0.12),
+      0 8px 10px -5px rgba(133, 6, 6, 0.2);
     border-radius: 20px;
     cursor: pointer;
   }
@@ -567,10 +571,9 @@ input {
     flex-direction: row-reverse;
   }
 
-   .work-info1:hover{
+  .work-info1:hover {
     transform: scale(1.05);
     transition: all 0.7s ease-in-out;
-
   }
 
   /* <<<<<<< About Section>>>>>>> */
@@ -669,7 +672,6 @@ input {
 
   .image-contain {
     margin: 0 auto;
-   
   }
 
   .stack-modal {
@@ -678,7 +680,6 @@ input {
     display: flex;
     flex-direction: row;
   }
-
 
   .fix img {
     max-width: 80%;
@@ -741,7 +742,6 @@ input {
   }
 
   /* <<<<<Modal Pop-up Desktop>>>>> */
-
 }
 
 /* <<<<<Modal Pop-up>>>>> */
@@ -776,8 +776,6 @@ input {
 .modal .work-title {
   font-size: 28px;
 }
-
-
 
 @keyframes dropdown {
   0% {
