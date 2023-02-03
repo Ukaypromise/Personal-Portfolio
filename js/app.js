@@ -95,7 +95,7 @@ const projects = [
     id: 8,
     name: "Leader Board",
     description:
-      "Leaderboard list app, using webpack and ES6 modules. The projeect consume the Leaderboard API using JavaScript async and await methods.",
+      "Webpack and ES6 modules were used to create a leaderboard list app. The project makes use of JavaScript async and await techniques to access the Leaderboard API.",
     image: "../images/leader-board.png",
     technologies: ["html", "css", "JavaScript"],
     link: "https://serene-otter-7f83bc.netlify.app/",
@@ -105,7 +105,7 @@ const projects = [
     id: 9,
     name: "Budget App",
     description:
-      "Mmefu Ego(Budget App) is a web application where users can manage their budget. You have a list of transactions associated with a category. Users can signin and add categories of budget and the expenses for their budgets with this application.",
+      "Mmefu Ego (Budget App) is an online application that allows users to manage their finances. You have a list of transactions that are linked to a category. With this application, users may sign in and add budget categories and expenses to their budgets.",
     image: "../images/budget.png",
     technologies: ["Ruby on Rails", "PostgreSQL", "RSpec"],
     link: "https://serene-otter-7f83bc.netlify.app/",
