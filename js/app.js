@@ -37,7 +37,7 @@ const projects = [
     description:
       "Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.",
     image: "../images/math.png",
-    technologies: ["html", "css", "JavaScript", "React"],
+    technologies: ["css", "React"],
     link: "https://mathy-calculator.netlify.app/",
     source: "https://github.com/Ukaypromise/Math-Magician",
   },
@@ -45,7 +45,7 @@ const projects = [
     id: 3,
     name: "WeeCode",
     description:
-      " A website for a web development courseA website for a web development course. The project was built with vanilla javascript. Most of the content was rendered dynamically by manipulating the DOM. CSS animations was also used to improve the user experience of the application.",
+      " A website for a web development courseA website for a web development course. The project was built with vanilla javascript. Most of the content was rendered dynamically by manipulating the DOM.",
     image: "../images/wecode.png",
     technologies: ["html", "css", "JavaScript"],
     link: "https://ukaypromise.github.io/capstone-wecode/",
@@ -55,9 +55,9 @@ const projects = [
     id: 4,
     name: "Crypto Master",
     description:
-      "This is a capstone for the Microverse Module 3 (React-Redux) project. React, Redux/Toolkit, and React Linters were used in its construction to enforce best practices for react code. The Project aims to retrieve API data, display cryptocurrency, and query API endpoints for data related to market listings for coins.",
+      "This is a capstone for the Microverse Module 3 (React-Redux) project.  The application  retrieves API data, display cryptocurrency, and query API endpoints for data related to market listings for coins.",
     image: "../images/crypto.png",
-    technologies: ["React", "Redux", "Styled Components"],
+    technologies: ["React", "Redux", "Jest"],
     link: "https://6341fe57ccdf94192b341a50--endearing-bonbon-930883.netlify.app/",
     source: "https://github.com/Ukaypromise/react-capstone",
   },
@@ -67,8 +67,8 @@ const projects = [
     description:
       "Bookstore is a web application built with React. It is a Single Page Application (SPA) that allows users to add books, categorise them, and delete books. The project is built using React and Redux.",
     image: "../images/bookstore.png",
-    technologies: ["JavaScript", "React", "Redux", "Webpack", "Jest"],
-    link: "https://github.com/Ukaypromise/bookstore",
+    technologies: ["React", "Redux", "Jest"],
+    link: "https://grand-druid-30c8d4.netlify.app/",
     source: "https://github.com/Ukaypromise/bookstore",
   },
   {
@@ -77,7 +77,7 @@ const projects = [
     description:
       "This is a scheduler or a todo app built with react. With this app, you can add, edit, and delete tasks.",
     image: "../images/todo.png",
-    technologies: ["html", "css", "JavaScript", "React"],
+    technologies: ["css", "JavaScript", "React"],
     link: "https://phenomenal-cendol-d1ddf8.netlify.app/",
     source: "https://github.com/Ukaypromise/scheduler-app",
   },
@@ -85,7 +85,7 @@ const projects = [
     id: 7,
     name: "Food App",
     description:
-      "The FoodMD is a web application that has a list of foods and recipes to prepare them. The web application was built based on two APi's, which are the Meals DB and the Involvement API. The web app makes APi call to render a list of meals and also make another API call when a user likes or comment.",
+      "The FoodMD is a web application that has a list of foods and recipes to prepare them. The web application was built based on two APi's. The web app makes APi call to render a list of meals and also make another API call when a user likes or comment.",
     image: "../images/food.png",
     technologies: ["html", "css", "JavaScript"],
     link: "https://capable-tarsier-080db1.netlify.app/",
@@ -95,7 +95,7 @@ const projects = [
     id: 8,
     name: "Leader Board",
     description:
-      "Leaderboard list app, using webpack and ES6 modules. The projeect consume the Leaderboard API using JavaScript async and await methods.",
+      "Webpack and ES6 modules were used to create a leaderboard list app. The project makes use of JavaScript async and await techniques to access the Leaderboard API.",
     image: "../images/leader-board.png",
     technologies: ["html", "css", "JavaScript"],
     link: "https://serene-otter-7f83bc.netlify.app/",
@@ -105,9 +105,9 @@ const projects = [
     id: 9,
     name: "Budget App",
     description:
-      "Mmefu Ego(Budget App) is a web application where you can manage your budget. You have a list of transactions associated with a category, so that you can see how much money you spent and on what. Users can signin and add categories of budget and the expenses for their budgets with this application.",
+      "Mmefu Ego (Budget App) is an online application that allows users to manage their finances. You have a list of transactions that are linked to a category. With this application, users may sign in and add budget categories and expenses to their budgets.",
     image: "../images/budget.png",
-    technologies: ["Bootstrap", "Ruby on Rails", "PostgreSQL", "RSpec"],
+    technologies: ["Ruby on Rails", "PostgreSQL", "RSpec"],
     link: "https://serene-otter-7f83bc.netlify.app/",
     source: "https://github.com/Ukaypromise/mmefu-ego-app",
   },
@@ -115,9 +115,9 @@ const projects = [
     id: 10,
     name: "Recipe App",
     description:
-      "Mmefu Ego(Budget App) is a web application where you can manage your budget. You have a list of transactions associated with a category, so that you can see how much money you spent and on what. Users can signin and add categories of budget and the expenses for their budgets with this application.",
+      "The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow users to save ingredients, keep track of what they have, create recipes, and generate a shopping list.",
     image: "../images/recipe.png",
-    technologies: ["Bootstrap", "Ruby on Rails", "PostgreSQL", "RSpec"],
+    technologies: ["Ruby on Rails", "PostgreSQL", "RSpec"],
     link: "https://github.com/Ukaypromise/Recipe-app",
     source: "https://github.com/Ukaypromise/Recipe-app",
   },
@@ -127,7 +127,7 @@ const projects = [
     description:
       "This is a clone of the Tesla website. It is a single page application built with React and Redux. The project is built using React and Redux.",
     image: "../images/tesla.png",
-    technologies: ["Styled-component", "Reactjs", "Redux"],
+    technologies: ["Reactjs", "Redux"],
     link: "https://devpromiseuka-tesla-clone.netlify.app/",
     source: "https://github.com/Ukaypromise/My-Tesla-Clone",
   },
@@ -140,6 +140,16 @@ const projects = [
     technologies: ["HTML5", "CSS3"],
     link: "https://glistening-brigadeiros-3a25f4.netlify.app/",
     source: "https://github.com/Ukaypromise/AltSchool-Landing-Page/",
+  },
+  {
+    id: 13,
+    name: "Realtor FreeHood",
+    description:
+      "A Real Estate web application that allows users to search for properties in their desired location and also allows users to post their properties for sale or rent.",
+    image: "../images/freehood.png",
+    technologies: ["NextJs", "ReactJS", "Material UI"],
+    link: "https://realty-freehood.vercel.app/",
+    source: "https://github.com/Ukaypromise/realty-freehood",
   },
 ];
 

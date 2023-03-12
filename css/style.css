@@ -10,13 +10,19 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: #e5e5e5 !important;
+  background: #edf2f8 !important;
+  
 }
 
 header {
   position: sticky;
   top: 0;
   width: 100%;
+  background: rgba(255, 255, 255, 0.25) !important;
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 li {
@@ -34,7 +40,7 @@ a {
   align-items: center;
   padding: 0 20px;
   min-height: 70px;
-  background: white;
+  /* background: white; */
 }
 
 .nav-branding {
@@ -96,29 +102,29 @@ a {
   object-fit: cover;
   background-repeat: no-repeat;
   border-radius: 0 0 0 50px;
-  background-color: #ffff;
+  /* background-color: #ffff; */
   height: 600px;
 }
 
 .headline-main {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   color: #172b4d;
   text-align: start;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 30px;
+  line-height: 42px;
 }
 
 .headline-paragraph {
   font-weight: 400;
-  font-size: 1.125rem;
+  font-size: 1.1rem;
   line-height: 1.5rem;
   color: #344563;
 }
 
 .headline-connect {
-  margin: 1.5rem 0;
+  margin: 1rem 0;
   color: #7f8cff;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -129,6 +135,11 @@ a {
 .headline-icons {
   display: flex;
   flex-direction: row;
+}
+
+.profile-image {
+  width: 100px;
+  border-radius: 50%;
 }
 
 .fa-xl {
@@ -199,6 +210,7 @@ a {
 
 .content1,
 .image-container {
+  text-align: left;
   flex: 1;
   margin: 2px;
 }
@@ -221,10 +233,10 @@ h4 {
 }
 
 .title-description {
+  text-align: justify;
   font-size: 15px;
   color: #344563;
-  margin: 0 0 5px 0;
-  padding-left: 20px;
+  margin: 10px 10px;
   font-weight: 400;
   line-height: 30px;
 }
@@ -241,30 +253,38 @@ h4 {
   color: #7a869a;
 }
 
+.stack-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
 .stack-group {
   display: flex;
   flex-direction: row;
   list-style: none;
-  margin: 0 0;
+  margin: 0 1rem;
   padding: 0;
 }
 
 .stack {
-  font-size: 13px;
-  padding: 5px 15px;
-  margin: 0 10px;
+  font-size: 12px;
+  padding: 5px 10px;
+  margin: 0 5px;
   border-radius: 8px;
   background-color: #ebebff;
   color: #6070ff;
 }
 
 .btn {
-  font-size: 20px;
+  font-size: 14px;
   border: solid 1px #6070ff;
   color: #6070ff;
   border-radius: 10px;
   margin: 20px 0 10px 20px !important;
-  padding: 12px;
+  padding: 8px;
   background-color: #fff;
   width: fit-content;
   cursor: pointer;
@@ -282,6 +302,10 @@ h4 {
   width: fit-content;
   cursor: pointer;
   transition: 0.5s ease-in-out;
+}
+
+.btn-resume > a:hover {
+  color: #fff;
 }
 
 button:hover {
@@ -329,7 +353,7 @@ button:hover {
 }
 
 .dev-stack:after {
-  content: '\02795'; 
+  content: "\02795";
   font-size: 13px;
   color: #777;
   float: right;
@@ -340,11 +364,12 @@ button:hover {
   content: "\2796";
 }
 
-.dev-stack.active, .dev-stack:hover {
+.dev-stack.active,
+.dev-stack:hover {
   background-color: #ccc;
 }
 
-.stack-container{
+.stack-container {
   display: none;
 }
 .dev-stack h3 {
@@ -391,7 +416,8 @@ button:hover {
 
 .izon {
   width: 50px !important;
-  height: 50px !important;}
+  height: 50px !important;
+}
 
 /* <<<<<Footer>>>>> */
 
@@ -472,6 +498,13 @@ input {
   color: #fff;
 }
 
+.fix img {
+  max-width: 100%;
+  max-height: auto;
+  display: flex;
+  margin: 0 auto;
+}
+
 /* <<<<<<< Desktop Screen >>>>>>> */
 
 @media screen and (min-width: 768px) {
@@ -479,14 +512,7 @@ input {
 
   .navbar > a {
     font-size: 50px;
-    /* transition: all 0.5s ease-out; */
   }
-/* 
-  .navbar > a:hover {
-    font-size: 100px;
-    transition: 0.5s;
-    transform: rotate(180deg);
-  } */
 
   .container {
     padding: 30px;
@@ -496,7 +522,7 @@ input {
   }
 
   header {
-    background: white;
+    /* background: white; */
     padding: 0 140px;
   }
 
@@ -524,8 +550,34 @@ input {
   }
 
   .headline-bg {
-    background-image: url("../images/Header-bg2x.png");
+    background-image: url("../images/bgIMG.png");
     background-repeat: no-repeat;
+  }
+
+  .app__header-img {
+    position: relative;;
+    flex: 1;
+    height: 100%;
+  
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+    border-radius: 50%;
+    z-index: 999;
+  }
+    .ximage {
+      width: 50%;
+      object-fit: contain;
+      
+    }
+  
+    
+  
+
+  .profile-image {
+    width: 150px;
+    border-radius: 50%;
   }
 
   /* <<<<<<< Work Section >>>>>>> */
@@ -534,16 +586,26 @@ input {
   .work-info2,
   .work-info3,
   .work-info4 {
-    width: 90%;
+    width: 80%;
     margin: 30px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    box-shadow: 0 16px 24px 2px rgba(96, 36, 207, 0.14),
+      0 6px 30px 5px rgba(67, 8, 230, 0.12),
+      0 8px 10px -5px rgba(133, 6, 6, 0.2);
+    border-radius: 20px;
+    cursor: pointer;
   }
 
   .work-info2,
   .work-info4 {
     display: flex;
     flex-direction: row-reverse;
+  }
+
+  .work-info1:hover {
+    transform: scale(1.05);
+    transition: all 0.7s ease-in-out;
   }
 
   /* <<<<<<< About Section>>>>>>> */
@@ -641,23 +703,22 @@ input {
   }
 
   .image-contain {
-    padding-left: 6rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin: 0 auto;
   }
 
   .stack-modal {
+    margin: 1rem auto;
+    padding: 1rem;
     display: flex;
     flex-direction: row;
   }
 
-  .fix {
-    max-width: 800px;
-    max-height: 800px;
-  }
-
   .fix img {
-    max-width: 60%;
+    max-width: 80%;
+    height: auto;
+    display: flex;
+    margin: 1.2rem auto;
+    padding: 0;
   }
 }
 
