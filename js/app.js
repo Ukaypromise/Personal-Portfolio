@@ -141,6 +141,16 @@ const projects = [
     link: "https://glistening-brigadeiros-3a25f4.netlify.app/",
     source: "https://github.com/Ukaypromise/AltSchool-Landing-Page/",
   },
+  {
+    id: 13,
+    name: "Realtor FreeHood",
+    description:
+      "A Real Estate web application that allows users to search for properties in their desired location and also allows users to post their properties for sale or rent.",
+    image: "../images/freehood.png",
+    technologies: ["NextJs", "ReactJS", "Material UI"],
+    link: "https://realty-freehood.vercel.app/",
+    source: "https://github.com/Ukaypromise/realty-freehood",
+  },
 ];
 
 const onModalOpen = async (id) => {
