@@ -106,6 +106,10 @@ a {
   height: 600px;
 }
 
+.divider{
+  display: flex;
+  flex-direction: column;
+}
 .headline-main {
   margin-bottom: 1rem;
   color: #172b4d;
@@ -548,7 +552,20 @@ input {
   .headline {
     padding: 0 140px;
   }
-
+.divider{
+  display: flex;
+  flex-direction: row;
+}
+.divider1{
+  margin-left: 4rem;
+}
+.divider1 h1{
+  font-size: 45px;
+  font-weight: 700;
+  color: #344563;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
   .headline-bg {
     background-image: url("../images/bgIMG.png");
     background-repeat: no-repeat;
