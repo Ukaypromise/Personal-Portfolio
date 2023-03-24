@@ -151,6 +151,16 @@ const projects = [
     link: "https://realty-freehood.vercel.app/",
     source: "https://github.com/Ukaypromise/realty-freehood",
   },
+  {
+    id: 14,
+    name: "EventBite App",
+    description:
+      "This is a simple event scheduler API built with Node.js, Express, MongoDB and Mongoose. It is a simple API that allows users to create events, update events, delete events and get all events. It also allows users to register and login to the application.",
+    image: "../images/eventbite.png",
+    technologies: ["Nodejs", "ReactJS", "Express", "MongoDB"],
+    link: "https://github.com/Ukaypromise/mern-app/",
+    source: "https://github.com/Ukaypromise/mern-app/",
+  },
 ];
 
 const onModalOpen = async (id) => {
