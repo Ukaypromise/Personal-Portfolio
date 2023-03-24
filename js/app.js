@@ -155,7 +155,7 @@ const projects = [
     id: 14,
     name: "EventBite App",
     description:
-      "This is a simple event scheduler API built with Node.js, Express, MongoDB and Mongoose. It is a simple API that allows users to create events, update events, delete events and get all events. It also allows users to register and login to the application.",
+      "This is a MERN stack app built with React, Redux, Node.js, Express, MongoDB and Mongoose. The backend is a simple API that allows users to create events, update events, delete events and get all events. It also allows users to register and login to the application.",
     image: "../images/eventbite.png",
     technologies: ["Nodejs", "ReactJS", "Express", "MongoDB"],
     link: "https://github.com/Ukaypromise/mern-app/",
@@ -249,7 +249,6 @@ function emailValidation(input, invalidMsg) {
   return true;
 }
 
-
 // Accordion
 var acc = document.getElementsByClassName("dev-stack");
 var i;
@@ -269,7 +268,6 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
-
 
 // Preserve Data In-Browser
 const username = document.getElementById("name");
